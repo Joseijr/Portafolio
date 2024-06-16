@@ -1,9 +1,4 @@
 body {
-    background-image: url(Img/Fondo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -15,10 +10,10 @@ body {
 
 .container {
     background-color: #310f47;
-    padding: 20px;
+    padding: 10px;
     margin-top: 30px;
     border-radius: 50px;
-    width: 90%;
+    width: 40%;
     max-width: 1200px;
 }
 
@@ -97,6 +92,7 @@ p {
     border: 1px solid #ffffff;
     backdrop-filter: blur(10px);
     margin-bottom: auto;
+    
     font-family: 'Courier New', Courier, monospace;
 }
 .box1 h1 {
@@ -135,9 +131,7 @@ p {
 
 .boxF1 {
     display: flex;
-   
-    gap: 20px;
-    
+    gap: 20px;   
 }
 
 .boxF3 {
@@ -197,7 +191,7 @@ footer {
     text-align: center;
     display: flex;
     justify-content: space-between;
-    margin-top: auto;
+    margin-top: 10%;
     width: 100%;
     
 }
