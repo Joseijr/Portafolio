@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
 }
 
 .container {
@@ -15,6 +16,7 @@ body {
     border-radius: 50px;
     width: 40%;
     max-width: 1200px;
+    
 }
 
 .link-container {
@@ -146,20 +148,15 @@ p {
     gap: 1px;
 }
 
-
-
 .box-img {
     margin: 10px;
     width: 100%;
     max-width: 200px;
     height: auto;
-    
 }
 
 .box-item h1 {
     text-align: center;
-    
- 
 }
 
 .box-img2 {
@@ -172,8 +169,6 @@ p {
     backdrop-filter: blur(10px);
     background: transparent;
     border: 2px solid beige;
-    
-    
 }
 
 .box-img2 img {
@@ -181,7 +176,6 @@ p {
     height: 100px;
     border-radius: 100%;
     margin-bottom: 10px;
-    
 }
 
 footer {
@@ -191,33 +185,30 @@ footer {
     text-align: center;
     display: flex;
     justify-content: space-between;
-    margin-top: 10%;
+    margin-top: auto;
     width: 100%;
-    
+    padding: 20px 0; /* Ajusta el padding según el espacio deseado */
 }
 
-.footer-left,.footer-right {
+.footer-left, .footer-right {
     width: 20%;
 }
 
-
-
 @media (max-width: 768px) {
     .link-container {
-        flex-direction: flex;
+        flex-direction: column;
         gap: 10px;
     }
 
-    .footer-left,.footer-right {
+    .footer-left, .footer-right {
         width: 100%;
         text-align: center;
     }
-
+}
 
 @media (max-width: 480px) {
     .box-img2 img {
         width: 60px;
         height: 60px;
     }
-}
 }
