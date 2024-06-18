@@ -81,28 +81,59 @@ a:hover {
 }
 
 .box2 img:hover {
-    box-shadow:
-        0 0 5px rgba(255, 0, 217, 0.5),
-        0 0 10px rgb(255, 0, 230),
-        0 0 15px rgb(221, 0, 255);
+
+    filter: grayscale(0%);
 
 }
 
-.box-img2 img:hover {
+.rojo img:hover {
     box-shadow:
-        0 0 5px rgba(255, 0, 217, 0.5),
-        0 0 10px rgb(255, 0, 230),
-        0 0 15px rgb(221, 0, 255);
+        0 0 5px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 15px rgb(255, 0, 0),
+        0 0 20px rgb(255, 0, 0),
+        0 0 25px rgb(255, 0, 0);
+}
+
+.morado img:hover {
+    box-shadow:
+        0 0 5px rgb(128, 0, 128),
+        0 0 10px rgb(128, 0, 128),
+        0 0 15px rgb(128, 0, 128),
+        0 0 20px rgb(128, 0, 128),
+        0 0 25px rgb(128, 0, 128);
+}
+
+.verde img:hover {
+    box-shadow:
+        0 0 5px rgb(0, 255, 0),
+        0 0 10px rgb(0, 255, 0),
+        0 0 15px rgb(0, 255, 0),
+        0 0 20px rgb(0, 255, 0),
+        0 0 25px rgb(0, 255, 0);
 
 }
 
-.box-img2:hover {
+.azul img:hover {
     box-shadow:
-        0 0 5px rgba(255, 0, 217, 0.5),
-        0 0 10px rgb(255, 0, 230),
-        0 0 15px rgb(221, 0, 255);
-    border: 1px solid #d000ff;
+        0 0 5px rgb(0, 0, 255),
+        0 0 10px rgb(0, 0, 255),
+        0 0 15px rgb(0, 0, 255),
+        0 0 20px rgb(0, 0, 255),
+        0 0 25px rgb(0, 0, 255);
 }
+
+.blanco img:hover {
+    box-shadow:
+        0 0 5px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 15px rgb(255, 255, 255),
+        0 0 20px rgb(255, 255, 255),
+        0 0 25px rgb(255, 255, 255);
+}
+
+
+
 
 .title-container {
     margin-top: 20px;
@@ -128,6 +159,7 @@ p {
         0 0 15px rgb(221, 0, 255),
         0 0 20px rgb(221, 0, 255),
         0 0 25px rgb(221, 0, 255);
+
 }
 
 .box1 {
@@ -190,11 +222,15 @@ p {
     margin-bottom: 10%;
     font-family: 'Courier New', Courier, monospace;
 
+
 }
 
 .box2 img {
     display: flex;
     flex-wrap: wrap;
+    filter: grayscale(100%);
+    /* Aplica escala de grises por defecto */
+    transition: filter 0.3s ease, box-shadow 0.3s ease;
 }
 
 .box3 {
@@ -257,6 +293,7 @@ p {
     background: transparent;
     border: 2px solid beige;
 }
+
 
 .box-img2 img {
     width: 100px;
