@@ -7,7 +7,6 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-
 }
 
 .container {
@@ -17,14 +16,12 @@ body {
     border-radius: 50px;
     width: 40%;
     max-width: 1200px;
-
 }
 
 .principal-container {
     display: flex;
     width: 800px;
     padding: 40px;
-
 }
 
 .personal-box {
@@ -57,7 +54,6 @@ body {
     cursor: none;
 }
 
-
 .link-container {
     display: flex;
     gap: 20px;
@@ -74,66 +70,32 @@ a {
 
 a:hover {
     color: #ffffff;
-    text-shadow:
-        0 0 5px rgba(255, 255, 255, 0.5),
-        0 0 10px rgb(255, 255, 255),
-        0 0 15px rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255);
 }
 
 .box2 img:hover {
-
     filter: grayscale(0%);
-
 }
 
 .rojo img:hover {
-    box-shadow:
-        0 0 5px rgb(255, 0, 0),
-        0 0 10px rgb(255, 0, 0),
-        0 0 15px rgb(255, 0, 0),
-        0 0 20px rgb(255, 0, 0),
-        0 0 25px rgb(255, 0, 0);
+    box-shadow: 0 0 5px rgb(255, 0, 0), 0 0 10px rgb(255, 0, 0), 0 0 15px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0), 0 0 25px rgb(255, 0, 0);
 }
 
 .morado img:hover {
-    box-shadow:
-        0 0 5px rgb(128, 0, 128),
-        0 0 10px rgb(128, 0, 128),
-        0 0 15px rgb(128, 0, 128),
-        0 0 20px rgb(128, 0, 128),
-        0 0 25px rgb(128, 0, 128);
+    box-shadow: 0 0 5px rgb(128, 0, 128), 0 0 10px rgb(128, 0, 128), 0 0 15px rgb(128, 0, 128), 0 0 20px rgb(128, 0, 128), 0 0 25px rgb(128, 0, 128);
 }
 
 .verde img:hover {
-    box-shadow:
-        0 0 5px rgb(0, 255, 0),
-        0 0 10px rgb(0, 255, 0),
-        0 0 15px rgb(0, 255, 0),
-        0 0 20px rgb(0, 255, 0),
-        0 0 25px rgb(0, 255, 0);
-
+    box-shadow: 0 0 5px rgb(0, 255, 0), 0 0 10px rgb(0, 255, 0), 0 0 15px rgb(0, 255, 0), 0 0 20px rgb(0, 255, 0), 0 0 25px rgb(0, 255, 0);
 }
 
 .azul img:hover {
-    box-shadow:
-        0 0 5px rgb(0, 0, 255),
-        0 0 10px rgb(0, 0, 255),
-        0 0 15px rgb(0, 0, 255),
-        0 0 20px rgb(0, 0, 255),
-        0 0 25px rgb(0, 0, 255);
+    box-shadow: 0 0 5px rgb(0, 0, 255), 0 0 10px rgb(0, 0, 255), 0 0 15px rgb(0, 0, 255), 0 0 20px rgb(0, 0, 255), 0 0 25px rgb(0, 0, 255);
 }
 
 .blanco img:hover {
-    box-shadow:
-        0 0 5px rgb(255, 255, 255),
-        0 0 10px rgb(255, 255, 255),
-        0 0 15px rgb(255, 255, 255),
-        0 0 20px rgb(255, 255, 255),
-        0 0 25px rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
 }
-
-
-
 
 .title-container {
     margin-top: 20px;
@@ -153,13 +115,7 @@ p {
 }
 
 .personal-box img:hover {
-    box-shadow:
-        0 0 5px rgb(255, 0, 217),
-        0 0 10px rgb(255, 0, 230),
-        0 0 15px rgb(221, 0, 255),
-        0 0 20px rgb(221, 0, 255),
-        0 0 25px rgb(221, 0, 255);
-
+    box-shadow: 0 0 5px rgb(255, 0, 217), 0 0 10px rgb(255, 0, 230), 0 0 15px rgb(221, 0, 255), 0 0 20px rgb(221, 0, 255), 0 0 25px rgb(221, 0, 255);
 }
 
 .box1 {
@@ -189,7 +145,6 @@ p {
 
 .box1 p {
     padding: 1px 60px 0px;
-
 }
 
 .principal-container h2 {
@@ -200,14 +155,10 @@ p {
 .box-contact h1 {
     border-bottom: 1px solid #ffffff;
     color: #ffffff;
-
-
 }
 
 .box-contact ul {
     text-align: left;
-
-
 }
 
 .box2 {
@@ -221,8 +172,6 @@ p {
     backdrop-filter: blur(10px);
     margin-bottom: 10%;
     font-family: 'Courier New', Courier, monospace;
-
-
 }
 
 .box2 img {
@@ -248,6 +197,7 @@ p {
     backdrop-filter: blur(10px);
     font-family: 'Courier New', Courier, monospace;
     padding-left: 30px;
+    justify-content: center;
 }
 
 .boxF1 {
@@ -263,23 +213,34 @@ p {
     gap: 20px;
     justify-content: center;
     padding-left: 50px;
-
 }
 
 .boxF4 {
-    display: flex;
-    gap: 1px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-content: center;
+    padding-left: 30px;
 }
 
 .box-img {
-    margin: 10px;
     width: 100%;
-    max-width: 200px;
-    height: auto;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
 }
 
 .box-item h1 {
     text-align: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.box-item h2 {
+    text-align: center;
+    margin-left: 40px;
+    text-align: center;
+    justify-content: center;
 }
 
 .box-img2 {
@@ -293,7 +254,6 @@ p {
     background: transparent;
     border: 2px solid beige;
 }
-
 
 .box-img2 img {
     width: 100px;
@@ -311,28 +271,8 @@ p {
 }
 
 footer {
-
     background-color: #38004d;
     color: #fff;
     text-align: center;
     display: flex;
-    justify-content: space-between;
-    margin-top: auto;
-    width: 100%;
-    padding: 20px 0;
-
-}
-
-.footer-left,
-.footer-right {
-    width: 20%;
-    font-size: 20px;
-}
-
-
-
-.footer-left,
-.footer-right {
-    width: 100%;
-    text-align: center;
 }
