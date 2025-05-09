@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20vh;
+}
+
+.logo {
+    font-size: 5rem;
+    color: #4285F4;
+    font-weight: bold;
+    letter-spacing: -5px;
+}
+
+.logo::before {
+    content: "G";
+    color: #4285F4;
+}
+
+.logo::after {
+    content: "oogle";
+    color: black;
+}
+
+.search-box input {
+    width: 50%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    outline: none;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    border: 1px solid #c6c6c6;
+}
